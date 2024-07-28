@@ -20,16 +20,8 @@ void setup() {
 }
 
 void loop() {
-  eyesOn();
-  delay(2000);
-  eyesOff();
-  delay(2000);
   blinkEyes();
-  delay(2000);
-  happyEyes();
-  delay(2000);
-  obstacleEyes();
-  delay(2000);
+  
 }
 // Función para encender un rango de LEDs con un color específico
 void setLedRange(int start, int end, uint32_t color) {

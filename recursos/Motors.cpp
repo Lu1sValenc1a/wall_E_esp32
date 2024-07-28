@@ -5,12 +5,12 @@
 #include <Arduino.h>
 
 // We define the pins of the H/DRIVER bridge
-#define ENA          16
-#define IN1          17
-#define IN2           5
-#define IN3          18
-#define IN4          19
-#define ENB          21
+#define ENA           4
+#define IN1          16
+#define IN2          17
+#define IN3           5
+#define IN4          18
+#define ENB          19
 
 #define PWM_CHANNEL_ENA  0
 #define PWM_CHANNEL_ENB  1
